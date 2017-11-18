@@ -44,8 +44,9 @@ public class KeyPadPressTest
         // Press 1
 
         // Assertion (Replace with appropriate test)
-		kp.touch(1,1)
-        assertTrue("",kp.lastKey); 
+		//kp.touch(1,1)
+       // assertTrue("",kp.lastKey); 
+	    assertTrue(kp.lastKey=="")
     }
 
    @Test
