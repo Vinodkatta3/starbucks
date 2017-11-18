@@ -45,7 +45,7 @@ public class ObserverPatternTest
 keyPad.touch(1,1);
         // Assert D1 is "1" (replace with appropriate test)
         //assertTrue( D1=="1" ) ;
-        assertTrue(1==1);
+        assertTrue("1"=="1");
     }
 
     @Test
