@@ -44,7 +44,7 @@ public class ObserverPatternTest
         // Key Pad Press 1
 keyPad.touch(1,1);
         // Assert D1 is "1" (replace with appropriate test)
-        assertTrue( D1==1 ) ;
+        assertTrue( D1=="1" ) ;
     }
 
     @Test
@@ -56,7 +56,7 @@ keyPad.touch(2,1);
 
         // Assert D1 and D2 are correct
         // (replace with appropriate test)
-        assertTrue( D1== 1 && D2==2) ;
+        assertTrue( D1== "1" && D2=="2") ;
     }
 
     @Test
@@ -70,7 +70,7 @@ keyPad.touch(2,1);
 
         // Assert D1, D2 and D3 are correct
         // (replace with appropriate test)
-        assertTrue( D1== 1 && D2==2 && D3==3) ;
+        assertTrue( D1== "1" && D2=="2" && D3=="3") ;
      }
 
     @Test
